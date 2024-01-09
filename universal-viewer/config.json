@@ -1,0 +1,141 @@
+{
+  "options":
+  {
+    "authAPIVersion": 1,
+    "bookmarkThumbHeight": 150,
+    "bookmarkThumbWidth": 90,
+    "downloadPagingNoteEnabled": true,
+    "dropEnabled": true,
+    "footerPanelEnabled": true,
+    "headerPanelEnabled": true,
+    "leftPanelEnabled": true,
+    "limitLocales": false,
+    "openTemplate": "http://universalviewer.io?manifest={0}",
+    "pagingEnabled": true,
+    "pessimisticAccessControl": false,
+    "rightPanelEnabled": false,
+    "saveUserSettings": true,
+    "tokenStorage": "session",
+    "usePdfJs": true
+  },
+  "modules":
+  {
+    "contentLeftPanel": {
+        "options": {
+        "defaultToTreeEnabled": false,
+        "defaultToTreeIfGreaterThan": 0,
+        "elideCount": 40,
+        "expandFullEnabled": false,
+        "galleryThumbChunkedResizingThreshold": 400,
+        "galleryThumbHeight": 320,
+        "galleryThumbLoadPadding": 3,
+        "galleryThumbWidth": 200,
+        "oneColThumbHeight": 320,
+        "oneColThumbWidth": 200,
+        "pageModeEnabled": true,
+        "panelAnimationDuration": 250,
+        "panelCollapsedWidth": 30,
+        "panelExpandedWidth": 255,
+        "panelOpen": true,
+        "tabOrder": "",
+        "thumbsEnabled": true,
+        "thumbsExtraHeight": 8,
+        "thumbsImageFadeInDuration": 300,
+        "thumbsLoadRange": 15,
+        "treeEnabled": true,
+        "twoColThumbHeight": 150,
+        "twoColThumbWidth": 90
+        }
+    },
+
+
+
+
+
+    "shareDialogue":
+    {
+      "options":
+      {
+        "embedTemplate": "<iframe src=\"{0}\" width=\"{1}\" height=\"{2}\" allowfullscreen frameborder=\"0\"></iframe>"
+      }
+    },
+    "pagingHeaderPanel":
+        {
+            "options":
+            {
+                "pageModeEnabled": true
+            }
+        },
+    "footerPanel":
+    {
+      "options": {
+        "bookmarkEnabled": false,
+        "embedEnabled": false,
+        "feedbackEnabled": false,
+        "minimiseButtons": false,
+        "openEnabled": true,
+        "shareEnabled": true
+      }
+    },
+    "searchFooterPanel":
+        {
+            "options":
+            {
+                "pageModeEnabled": true
+            }
+        },
+    "genericDialogue":
+    {
+
+    },
+    "headerPanel":
+    {
+        "settingsButtonEnabled": true
+    },
+    "helpDialogue":
+    {
+
+    },
+   
+    "pdfCenterPanel":
+    {
+      "options":{
+        "titleEnabled": false
+      }
+      },
+    "seadragonCenterPanel":
+    {
+        "options":{
+            "titleEnabled": false
+        }
+    },
+    "treeViewLeftPanel":
+        {
+            "options":
+            {
+                "pageModeEnabled": true
+            }
+        },
+    "resourcesLeftPanel":{
+      "options":{
+        "elideCount": 40,
+        "galleryThumbHeight": 320,
+        "galleryThumbWidth": 200,
+        "oneColThumbHeight": 320,
+        "oneColThumbWidth": 200,
+        "pageModeEnabled": true,
+        "panelAnimationDuration": 250,
+        "panelCollapsedWidth": 30,
+        "panelExpandedWidth": 255,
+        "panelOpen": true,
+        "thumbsEnabled": true,
+        "thumbsExtraHeight": 8,
+        "thumbsImageFadeInDuration": 300,
+        "thumbsLoadRange": 15,
+        "treeEnabled": true,
+        "twoColThumbHeight": 150,
+        "twoColThumbWidth": 90
+      }
+    }
+  }
+}

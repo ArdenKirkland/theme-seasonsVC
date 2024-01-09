@@ -50,12 +50,15 @@
             <div id="site-title">
                 <?php echo link_to_home_page(theme_logo()); ?>
             </div>
+            
+<!-- Customization here so that search box searches items from Costume and Textiles collection only -->
+
             <div id="search-container" role="search">
-                <?php if (get_theme_option('use_advanced_search') === null || get_theme_option('use_advanced_search')): ?>
-                <?php echo search_form(array('show_advanced' => true)); ?>
-                <?php else: ?>
-                <?Php echo search_form(); ?>
-                <?php endif; ?>
+				<form id="costume-search" name="costume-search" method="get" action="/items/browse">
+					<input type="text" name="search" id="search" value title="Search">
+					<input name="collection" type="hidden" value="1" />	
+					<button name="submit_search" id="submit_search" type="submit" value="Search">Search</button>
+				</form>
             </div>
             <?php fire_plugin_hook('public_header', array('view'=>$this)); ?>
         </header>
